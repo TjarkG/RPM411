@@ -2060,6 +2060,25 @@
     (pin "2" (uuid 5f61df5c-14f4-48ca-9cb8-9d6fb5e489b6))
   )
 
+  (symbol (lib_id "Device:R") (at 58.42 128.905 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid ce490511-0521-4d01-9983-ec2527fa23d6)
+    (property "Reference" "R34" (id 0) (at 60.96 127.6349 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "DNP" (id 1) (at 60.96 130.1749 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 56.642 128.905 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 58.42 128.905 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2d610160-e630-40d8-b2c1-6eb93c7b1e49))
+    (pin "2" (uuid 0311ef5f-5e43-47b9-b875-f046da779c1b))
+  )
+
   (symbol (lib_id "Device:C") (at 34.29 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d8b4d4c2-13e1-4749-ba95-080c635fca03)
@@ -2492,6 +2511,9 @@
     )
     (path "/6a3b047b-d6a2-45d4-9585-39c3972634d2"
       (reference "R33") (unit 1) (value "68R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/ce490511-0521-4d01-9983-ec2527fa23d6"
+      (reference "R34") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/118ff4b8-eefd-44e5-bf4d-827641d0eb1a"
       (reference "SH1") (unit 1) (value "RFShield") (footprint "RPM411:RMP411_Shield")
