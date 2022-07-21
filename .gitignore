@@ -1,0 +1,10 @@
+#LibreOffice
+**/**.od*#
+
+#vscode
+.vscode/*
+
+#Kicad
+**/#auto_saved_files#
+**/*-backups
+**/fp-info-cache
