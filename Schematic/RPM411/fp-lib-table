@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "RPM411")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr "Footprints for the RPM411 Pressur Sensor Board"))
+)
