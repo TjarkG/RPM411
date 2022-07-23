@@ -586,7 +586,7 @@
     (pad "39" smd roundrect (at 1.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 44 "Net-(R20-Pad2)") (pinfunction "PB3") (pintype "bidirectional") (tstamp d9cdb60a-ecfa-4866-ad81-ca393f637bae))
     (pad "40" smd roundrect (at 1.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 15 "unconnected-(U1-Pad40)") (pinfunction "PB4") (pintype "bidirectional") (tstamp 96d488aa-4d20-4ba2-8d75-10df5865e575))
+      (net 15 "unconnected-(U1-Pad40)") (pinfunction "PB4") (pintype "bidirectional+no_connect") (tstamp 96d488aa-4d20-4ba2-8d75-10df5865e575))
     (pad "41" smd roundrect (at 0.75 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "Net-(U1-Pad41)") (pinfunction "PB5") (pintype "bidirectional") (tstamp f21d4058-0da2-4512-b5f5-f906032f560a))
     (pad "42" smd roundrect (at 0.25 -4.1625) (size 0.3 1.475) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
