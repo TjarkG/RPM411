@@ -22,14 +22,14 @@ Reverse engineering is simpliefied by the fact that the blocks are essentialy sm
 # Schematic
 ![Schematic](schematic/RPM411.svg?raw=true "Schematic")
 
-# Powersupply
+## Powersupply
 The powersupply (middle right) consists of a Low Dropout Regulator
 [TVS70030](http://www.ti.com/lit/ds/symlink/tlv700-q1.pdf) from TI (`U7`), generating 3.3V for the frontend (the MCU is supplyed directly by the Sonde). Pin 4 of the LDO, which is NC according to the datasheet, is decoupled against ground, probably so that pin compatible versions like the [MAX8887](https://datasheets.maximintegrated.com/en/ds/MAX8887-MAX8888.pdf) can be used.
 
-# Microcontroller
+## Microcontroller
 The microcontroller is a [STM32F100C8](https://www.st.com/resource/en/datasheet/stm32f100c8.pdf) `U1` from ST in LQFP48 package, the same model as in the Sonde itself, running from an internall clock. Like in the RS41, RC low pass filters are present at many outputs and resistors at many inputs
 
-# Frontend
+## Frontend
 
 Electrically, the Frontend is very similar to the RS41's Humindity Messurment, but simplified because there is no temperature Messurment or Heating and all Components are on the PCB. In addition to the Pressure Sensor `P1`, a 15pF reference Capacitor `C33` is available.
 
@@ -41,6 +41,6 @@ The feedback path consists of a [74LVC1G32](https://assets.nexperia.com/document
 
 The measurement output is sent to the MCU via `R8` and `R33`.
 
-# Connector
+## Connector
 
 `J1` connects the Board to the RS41's SPI bus and two GPIO/CS signals, one of which is shared with the EEPROM, as well as 3V MCU voltage shared with the STM32 on the Sonde and the EEPROM and 3.8V from the boost converter used to supply the Frontend via `U7`. From the six Pins that aren't connected on the RS41, five are used for an SWD interface, the MCU Reset pin and an UART and one remains unused.
