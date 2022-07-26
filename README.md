@@ -43,4 +43,4 @@ The measurement output is sent to the MCU via `R8` and `R33`.
 
 ## Connector
 
-`J1` connects the Board to the RS41's SPI bus and two GPIO/CS signals, one of which is shared with the EEPROM, as well as 3V MCU voltage shared with the STM32 on the Sonde and the EEPROM and 3.8V from the boost converter used to supply the Frontend via `U7`. From the six Pins that aren't connected on the RS41, five are used for an SWD interface, the MCU Reset pin and an UART and one remains unused.
+`J1` connects the Board to the RS41's SPI bus, a clock and two GPIO/CS signals, one of which is shared with the EEPROM, as well as 3V MCU voltage shared with the STM32 on the Sonde and the EEPROM and 3.8V from the boost converter used to supply the Frontend via `U7`. From the six Pins that aren't connected on the RS41, five are used for an SWD interface, the MCU Reset pin and an UART and one remains unused.
