@@ -1,7 +1,7 @@
 # RPM411
 Reverse Engineering of the Vaisala RPM411 Pressur Sensor for the RS41 Radiosonde 
 
-For information about the RS41 see [Bajzos website](https://sondehunt.de/language/en/vaisala-rs41), for schematics of it [the RS41 Hardware Repo](https://github.com/bazjo/RS41_Hardware).
+For information about the RS41 see [Bajzos website](https://sondehunt.de/language/en/vaisala-rs41), for schematics of it [the Radiosonde Hardware Repo](https://github.com/bazjo/radiosonde_hardware/tree/master/Vaisala_RS41).
 
 The Schematic is in Kicad format, the Parts overlay in svg and can be edited with Inkscape. Some scans in jpeg are provided too.
 
